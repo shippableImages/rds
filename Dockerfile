@@ -1,4 +1,4 @@
-FROM        shipImg/ubuntu1404_base:latest
+FROM        shipimg/ubuntu1404_base:latest
 RUN         mkdir -p /etc/redis
 ADD         redis.conf /etc/redis
 ENV         DEBIAN_FRONTEND noninteractive
